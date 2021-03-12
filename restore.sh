@@ -460,7 +460,7 @@ function Downgrade {
     # uses ipsw tool from OdysseusOTA/2 to create custom IPSW with jailbreak
     if [[ $Jailbreak == 1 ]]; then
         if [[ $OSVer == 8.4.1 ]]; then
-            JBFiles=(fstab.tar etasonJB-untether.tar Cydia8.tar)
+            JBFiles=(fixes.tar etasonJB-untether.tar Cydia8.tar)
             JBSHA1=6459dbcbfe871056e6244d23b33c9b99aaeca970
             JBS=2305
         else
